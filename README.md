@@ -1,5 +1,7 @@
 # 🎸 MusicalProductipg — API RESTful con Express.js
 
+📦 **Repositorio GitHub:** [https://github.com/bastixori/MusicalProductipg](https://github.com/bastixori/MusicalProductipg)
+
 API RESTful construida con **Node.js** y **Express.js** para gestionar el catálogo de productos de la tienda de instrumentos musicales **MusicalProductipg**.
 
 ---
