@@ -103,6 +103,10 @@ curl http://localhost:3000/productos
 }
 ```
 
+**Pantallazo de la prueba:**
+
+![GET todos los productos](./screenshots/01_GET_productos.png)
+
 ---
 
 ### 2. POST — Crear un nuevo producto
@@ -127,12 +131,9 @@ curl -X POST http://localhost:3000/productos \
 }
 ```
 
-**Respuesta si faltan campos (400 Bad Request):**
-```json
-{
-  "error": "Faltan campos obligatorios. Se requieren: nombre, precio y categoria."
-}
-```
+**Pantallazo de la prueba:**
+
+![POST crear producto](./screenshots/02_POST_crear_producto.png)
 
 ---
 
@@ -158,12 +159,9 @@ curl -X PUT http://localhost:3000/productos/1 \
 }
 ```
 
-**Respuesta si el producto no existe (404 Not Found):**
-```json
-{
-  "error": "Producto con id 99 no encontrado."
-}
-```
+**Pantallazo de la prueba:**
+
+![PUT actualizar producto](./screenshots/03_PUT_actualizar.png)
 
 ---
 
@@ -187,12 +185,9 @@ curl -X DELETE http://localhost:3000/productos/3
 }
 ```
 
-**Respuesta si el producto no existe (404 Not Found):**
-```json
-{
-  "error": "Producto con id 3 no encontrado."
-}
-```
+**Pantallazo de la prueba:**
+
+![DELETE eliminar producto](./screenshots/04_DELETE_producto.png)
 
 ---
 
