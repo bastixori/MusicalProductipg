@@ -1,0 +1,18 @@
+{
+  "name": "musicalproductipg",
+  "version": "1.0.0",
+  "description": "API RESTful para la tienda de instrumentos musicales MusicalProductipg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "MusicalProductipg",
+  "license": "ISC"
+}
